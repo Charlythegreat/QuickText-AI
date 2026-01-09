@@ -1,0 +1,49 @@
+{
+  "extensionName": "QuickText AI",
+  "extensionDescription": "Asistente de generación de texto con IA - Gratis e Ilimitado",
+  
+  "popup": {
+    "title": "QuickText AI",
+    "inputLabel": "Texto seleccionado o prompt",
+    "inputPlaceholder": "Pegue o escriba texto aquí...",
+    "actionsLabel": "Acciones rápidas",
+    "actionRewrite": "Reescribir",
+    "actionPolite": "Respuesta cortés",
+    "actionProfessional": "Profesional",
+    "actionShort": "Respuesta corta",
+    "outputLabel": "Respuesta generada",
+    "outputPlaceholder": "La respuesta IA aparecerá aquí...",
+    "settingsButton": "Configuración",
+    "retryButton": "Reintentar",
+    "freeUnlimited": "Gratis e Ilimitado"
+  },
+  
+  "messages": {
+    "copied": "¡Copiado!",
+    "copyError": "No se pudo copiar",
+    "inserted": "¡Texto insertado!",
+    "insertError": "No se pudo insertar el texto",
+    "generated": "¡Respuesta generada!",
+    "generating": "Generando...",
+    "error": "Ocurrió un error. Por favor, inténtelo de nuevo.",
+    "networkError": "Error de red. Verifique su conexión.",
+    "rateLimited": "Demasiadas solicitudes. Por favor espere.",
+    "timeout": "La solicitud expiró. Inténtelo de nuevo.",
+    "serverError": "Error del servidor. Inténtelo más tarde.",
+    "serviceUnavailable": "Servicio temporalmente no disponible.",
+    "languageChanged": "Idioma cambiado",
+    "noInput": "Por favor, ingrese texto",
+    "textTruncated": "Texto truncado al límite",
+    "pasteError": "No se pudo pegar",
+    "apiOffline": "API no disponible. Verifique su conexión.",
+    "connecting": "Conectando..."
+  },
+  
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "hi": "हिंदी"
+  }
+}

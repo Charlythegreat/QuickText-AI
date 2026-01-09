@@ -1,0 +1,67 @@
+# =============================================================================
+# QuickText AI - Docker Compose Configuration
+# =============================================================================
+# Free & Unlimited AI text generation service
+# 
+# Usage:
+#   docker-compose up -d        # Start services
+#   docker-compose logs -f      # View logs
+#   docker-compose down         # Stop services
+# =============================================================================
+
+version: '3.8'
+
+services:
+  # QuickText API Server
+  quicktext-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: quicktext-api
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - LLM_PROVIDER=groq
+      - LLM_MODEL=llama3-70b-8192
+      - RATE_LIMIT_MAX=30
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - quicktext-network
+
+  # Redis for distributed rate limiting (optional)
+  redis:
+    image: redis:7-alpine
+    container_name: quicktext-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - quicktext-network
+    command: redis-server --appendonly yes
+    profiles:
+      - with-redis  # Only start if explicitly requested
+
+networks:
+  quicktext-network:
+    driver: bridge
+
+volumes:
+  redis_data:
+    driver: local

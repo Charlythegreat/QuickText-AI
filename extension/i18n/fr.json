@@ -1,0 +1,49 @@
+{
+  "extensionName": "QuickText AI",
+  "extensionDescription": "Assistant de génération de texte propulsé par l'IA - Gratuit et Illimité",
+  
+  "popup": {
+    "title": "QuickText AI",
+    "inputLabel": "Texte sélectionné ou prompt",
+    "inputPlaceholder": "Collez ou tapez du texte ici...",
+    "actionsLabel": "Actions rapides",
+    "actionRewrite": "Réécrire",
+    "actionPolite": "Réponse polie",
+    "actionProfessional": "Professionnel",
+    "actionShort": "Réponse courte",
+    "outputLabel": "Réponse générée",
+    "outputPlaceholder": "La réponse IA apparaîtra ici...",
+    "settingsButton": "Paramètres",
+    "retryButton": "Réessayer",
+    "freeUnlimited": "Gratuit et Illimité"
+  },
+  
+  "messages": {
+    "copied": "Copié !",
+    "copyError": "Impossible de copier",
+    "inserted": "Texte inséré !",
+    "insertError": "Impossible d'insérer le texte",
+    "generated": "Réponse générée !",
+    "generating": "Génération en cours...",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "networkError": "Erreur réseau. Vérifiez votre connexion.",
+    "rateLimited": "Trop de requêtes. Veuillez patienter.",
+    "timeout": "La requête a expiré. Veuillez réessayer.",
+    "serverError": "Erreur du serveur. Veuillez réessayer plus tard.",
+    "serviceUnavailable": "Service temporairement indisponible.",
+    "languageChanged": "Langue modifiée",
+    "noInput": "Veuillez entrer du texte",
+    "textTruncated": "Texte tronqué à la limite",
+    "pasteError": "Impossible de coller",
+    "apiOffline": "API indisponible. Vérifiez votre connexion.",
+    "connecting": "Connexion..."
+  },
+  
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "hi": "हिंदी"
+  }
+}

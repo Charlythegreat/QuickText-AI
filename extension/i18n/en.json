@@ -1,0 +1,49 @@
+{
+  "extensionName": "QuickText AI",
+  "extensionDescription": "AI-powered text generation assistant - Free & Unlimited",
+  
+  "popup": {
+    "title": "QuickText AI",
+    "inputLabel": "Selected text or prompt",
+    "inputPlaceholder": "Paste or type text here...",
+    "actionsLabel": "Quick actions",
+    "actionRewrite": "Rewrite",
+    "actionPolite": "Polite reply",
+    "actionProfessional": "Professional",
+    "actionShort": "Short reply",
+    "outputLabel": "Generated response",
+    "outputPlaceholder": "AI response will appear here...",
+    "settingsButton": "Settings",
+    "retryButton": "Retry",
+    "freeUnlimited": "Free & Unlimited"
+  },
+  
+  "messages": {
+    "copied": "Copied!",
+    "copyError": "Unable to copy",
+    "inserted": "Text inserted!",
+    "insertError": "Unable to insert text",
+    "generated": "Response generated!",
+    "generating": "Generating...",
+    "error": "An error occurred. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "rateLimited": "Too many requests. Please wait.",
+    "timeout": "Request timed out. Please try again.",
+    "serverError": "Server error. Please try again later.",
+    "serviceUnavailable": "Service temporarily unavailable.",
+    "languageChanged": "Language changed",
+    "noInput": "Please enter some text",
+    "textTruncated": "Text truncated to limit",
+    "pasteError": "Unable to paste",
+    "apiOffline": "API unavailable. Check your connection.",
+    "connecting": "Connecting..."
+  },
+  
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "hi": "हिंदी"
+  }
+}

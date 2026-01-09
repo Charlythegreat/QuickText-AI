@@ -1,0 +1,49 @@
+{
+  "extensionName": "QuickText AI",
+  "extensionDescription": "AI-संचालित टेक्स्ट जनरेशन सहायक - मुफ्त और असीमित",
+  
+  "popup": {
+    "title": "QuickText AI",
+    "inputLabel": "चयनित टेक्स्ट या प्रॉम्प्ट",
+    "inputPlaceholder": "टेक्स्ट यहाँ पेस्ट या टाइप करें...",
+    "actionsLabel": "त्वरित कार्रवाइयाँ",
+    "actionRewrite": "फिर से लिखें",
+    "actionPolite": "विनम्र उत्तर",
+    "actionProfessional": "पेशेवर",
+    "actionShort": "संक्षिप्त उत्तर",
+    "outputLabel": "जनरेट की गई प्रतिक्रिया",
+    "outputPlaceholder": "AI प्रतिक्रिया यहाँ दिखाई देगी...",
+    "settingsButton": "सेटिंग्स",
+    "retryButton": "पुनः प्रयास करें",
+    "freeUnlimited": "मुफ्त और असीमित"
+  },
+  
+  "messages": {
+    "copied": "कॉपी हो गया!",
+    "copyError": "कॉपी नहीं हो सका",
+    "inserted": "टेक्स्ट डाला गया!",
+    "insertError": "टेक्स्ट डालने में असमर्थ",
+    "generated": "प्रतिक्रिया जनरेट हो गई!",
+    "generating": "जनरेट हो रहा है...",
+    "error": "एक त्रुटि हुई। कृपया पुनः प्रयास करें।",
+    "networkError": "नेटवर्क त्रुटि। अपना कनेक्शन जांचें।",
+    "rateLimited": "बहुत अधिक अनुरोध। कृपया प्रतीक्षा करें।",
+    "timeout": "अनुरोध का समय समाप्त। पुनः प्रयास करें।",
+    "serverError": "सर्वर त्रुटि। बाद में पुनः प्रयास करें।",
+    "serviceUnavailable": "सेवा अस्थायी रूप से अनुपलब्ध।",
+    "languageChanged": "भाषा बदल गई",
+    "noInput": "कृपया कुछ टेक्स्ट दर्ज करें",
+    "textTruncated": "टेक्स्ट सीमा तक छोटा किया गया",
+    "pasteError": "पेस्ट नहीं हो सका",
+    "apiOffline": "API उपलब्ध नहीं। कनेक्शन जांचें।",
+    "connecting": "कनेक्ट हो रहा है..."
+  },
+  
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "hi": "हिंदी"
+  }
+}

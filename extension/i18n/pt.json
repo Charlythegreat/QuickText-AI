@@ -1,0 +1,49 @@
+{
+  "extensionName": "QuickText AI",
+  "extensionDescription": "Assistente de geração de texto com IA - Grátis e Ilimitado",
+  
+  "popup": {
+    "title": "QuickText AI",
+    "inputLabel": "Texto selecionado ou prompt",
+    "inputPlaceholder": "Cole ou digite texto aqui...",
+    "actionsLabel": "Ações rápidas",
+    "actionRewrite": "Reescrever",
+    "actionPolite": "Resposta educada",
+    "actionProfessional": "Profissional",
+    "actionShort": "Resposta curta",
+    "outputLabel": "Resposta gerada",
+    "outputPlaceholder": "A resposta IA aparecerá aqui...",
+    "settingsButton": "Configurações",
+    "retryButton": "Tentar novamente",
+    "freeUnlimited": "Grátis e Ilimitado"
+  },
+  
+  "messages": {
+    "copied": "Copiado!",
+    "copyError": "Não foi possível copiar",
+    "inserted": "Texto inserido!",
+    "insertError": "Não foi possível inserir o texto",
+    "generated": "Resposta gerada!",
+    "generating": "Gerando...",
+    "error": "Ocorreu um erro. Por favor, tente novamente.",
+    "networkError": "Erro de rede. Verifique sua conexão.",
+    "rateLimited": "Muitas solicitações. Por favor aguarde.",
+    "timeout": "A solicitação expirou. Tente novamente.",
+    "serverError": "Erro do servidor. Tente mais tarde.",
+    "serviceUnavailable": "Serviço temporariamente indisponível.",
+    "languageChanged": "Idioma alterado",
+    "noInput": "Por favor, insira algum texto",
+    "textTruncated": "Texto truncado ao limite",
+    "pasteError": "Não foi possível colar",
+    "apiOffline": "API indisponível. Verifique sua conexão.",
+    "connecting": "Conectando..."
+  },
+  
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "hi": "हिंदी"
+  }
+}
